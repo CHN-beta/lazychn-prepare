@@ -1,0 +1,7 @@
+# REMARK_URL=https://demo.remark42.com  # URL pointing to your Remark42 server
+# SITE=YOUR_SITE_ID                     # site ID, same as used for `site_id`, see "Setup on your website"
+# SECRET=abcd-123456-xyz-$%^&           # secret key
+# AUTH_GITHUB_CID=12345667890           # OAuth2 client ID
+# AUTH_GITHUB_CSEC=abcdefg12345678      # OAuth2 client secret
+    volumes:
+      - ./var:/srv/var                        # persisten
